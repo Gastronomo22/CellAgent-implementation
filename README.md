@@ -1,6 +1,6 @@
 # CellAgent Replicator 🧬
 
-This project is a simplified implementation inspired by the paper:
+This project is an implementation inspired by the paper:
 
 📄 **CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis**  
 [arXiv:2407.09811](https://arxiv.org/abs/2407.09811)
