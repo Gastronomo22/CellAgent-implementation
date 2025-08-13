@@ -28,3 +28,19 @@ In addition, two auxiliary modules have been implemented:
 - **Memory Control**: Passes contextual code between steps to maintain consistency.
 - **Tool Retriever**: Supplies brief documentation about available tools to help the Executor make informed decisions.
 
+---
+
+## Example Usage
+
+The file `annotate_pbmc.py` contains a minimal working example that demonstrates how to use the pipeline on a real dataset (`pbmc.h5ad`) within a Google Colab environment.  
+It shows how to:
+
+- Load a single-cell dataset using Scanpy  
+- Configure the OpenAI API via Colab secrets  
+- Define the analysis task and available tools  
+- Run the multi-step pipeline using `run_cellagent_task`  
+- Print the selected code and justification for each analysis step  
+
+This script is intended as a simple entry point for users to test and extend the pipeline on their own data.
+
+
